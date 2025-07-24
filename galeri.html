@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Indonesia - Galeri</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader-wrapper">
+        <div class="loader">
+            <div class="loader-inner">
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-mountain"></i> Wisata Indonesia
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destinasi.html">Destinasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="galeri.html">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registrasi.html">Registrasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 fw-bold">Galeri Wisata</h1>
+                    <p class="lead">Lihat keindahan Indonesia melalui koleksi foto-foto menakjubkan</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Image Slider -->
+    <section class="py-5">
+        <div class="container">
+            <div id="destinationSlider" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#destinationSlider" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#destinationSlider" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#destinationSlider" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#destinationSlider" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#destinationSlider" data-bs-slide-to="4"></button>
+                </div>
+                <div class="carousel-inner rounded">
+                    <div class="carousel-item active">
+                        <img src="images/slider1.jpg" class="d-block w-100" alt="Bali">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Pantai Kuta, Bali</h5>
+                            <p>Sunset terindah di Pulau Dewata</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider2.jpg" class="d-block w-100" alt="Raja Ampat">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Raja Ampat, Papua Barat</h5>
+                            <p>Surga bawah laut dengan biodiversitas tertinggi di dunia</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider3.jpg" class="d-block w-100" alt="Bromo">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Gunung Bromo, Jawa Timur</h5>
+                            <p>Pesona sunrise di atas lautan pasir</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider4.jpg" class="d-block w-100" alt="Borobudur">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Candi Borobudur, Jawa Tengah</h5>
+                            <p>Warisan budaya dunia dari abad ke-9</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider5.jpg" class="d-block w-100" alt="Komodo">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Pulau Komodo, NTT</h5>
+                            <p>Rumah bagi kadal terbesar di dunia</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#destinationSlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#destinationSlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Koleksi Foto</h2>
+            <div class="row g-3">
+                <div class="col-md-4 col-6">
+                    <div class="gallery-item">
+                        <img src="images/gallery1.jpg" class="img-fluid rounded" alt="Gallery 1">
+                        <div class="gallery-overlay">
+                            <h5>Danau Toba</h5>
+                            <p>Sumatera Utara</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="gallery-item">
+                        <img src="images/gallery2.jpg" class="img-fluid rounded" alt="Gallery 2">
+                        <div class="gallery-overlay">
+                            <h5>Labuan Bajo</h5>
+                            <p>Nusa Tenggara Timur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="gallery-item">
+                        <img src="images/gallery3.jpg" class="img-fluid rounded" alt="Gallery 3">
+                        <div class="gallery-overlay">
+                            <h5>Tana Toraja</h5>
+                            <p>Sulawesi Selatan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="gallery-item">
+                        <img src="images/gallery4.jpg" class="img-fluid rounded" alt="Gallery 4">
+                        <div class="gallery-overlay">
+                            <h5>Bunaken</h5>
+                            <p>Sulawesi Utara</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="gallery-item">
+                        <img src="images/gallery5.jpg" class="img-fluid rounded" alt="Gallery 5">
+                        <div class="gallery-overlay">
+                            <h5>Prambanan</h5>
+                            <p>Yogyakarta</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="gallery-item">
+                        <img src="images/gallery6.jpg" class="img-fluid rounded" alt="Gallery 6">
+                        <div class="gallery-overlay">
+                            <h5>Wakatobi</h5>
+                            <p>Sulawesi Tenggara</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Tentang Kami</h5>
+                    <p>Wisata Indonesia adalah platform yang mempromosikan keindahan alam dan budaya Indonesia kepada dunia.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Link Cepat</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Beranda</a></li>
+                        <li><a href="destinasi.html" class="text-white">Destinasi</a></li>
+                        <li><a href="galeri.html" class="text-white">Galeri</a></li>
+                        <li><a href="registrasi.html" class="text-white">Registrasi</a></li>
+                        <li><a href="kontak.html" class="text-white">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Hubungi Kami</h5>
+                    <p><i class="fas fa-envelope me-2"></i> info@wisataindonesia.com</p>
+                    <p><i class="fas fa-phone me-2"></i> +62 123 4567 890</p>
+                    <div class="social-icons">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">&copy; 2023 Wisata Indonesia. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

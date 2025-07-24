@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Indonesia - Beranda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader-wrapper">
+        <div class="loader">
+            <div class="loader-inner">
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-mountain"></i> Wisata Indonesia
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destinasi.html">Destinasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.html">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registrasi.html">Registrasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center text-white">
+                    <h1 class="display-3 fw-bold">Explore Keindahan Indonesia</h1>
+                    <p class="lead">Temukan destinasi wisata menakjubkan dari Sabang sampai Merauke</p>
+                    <a href="destinasi.html" class="btn btn-primary btn-lg mt-3" id="btn-utama">Jelajahi Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Destinations -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Destinasi Populer</h2>
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="card destination-card">
+                        <img src="images/destinations/bali.jpg" class="card-img-top" alt="Bali">
+                        <div class="card-body">
+                            <h5 class="card-title">Bali</h5>
+                            <p class="card-text">Pulau Dewata dengan pantai eksotis dan budaya yang kaya.</p>
+                            <div class="card-details">
+                                <p><i class="fas fa-map-marker-alt"></i> Provinsi Bali</p>
+                                <p><i class="fas fa-star"></i> Rating: 4.9/5</p>
+                                <p><i class="fas fa-money-bill-wave"></i> Harga mulai dari Rp 500.000</p>
+                                <a href="destinasi.html#bali" class="btn btn-sm btn-outline-primary">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                    <div class="card destination-card">
+                        <img src="images/destinations/raja-ampat.webp" class="card-img-top" alt="Raja Ampat">
+                        <div class="card-body">
+                            <h5 class="card-title">Raja Ampat</h5>
+                            <p class="card-text">Surga bawah laut dengan keanekaragaman hayati terbaik di dunia.</p>
+                            <div class="card-details">
+                                <p><i class="fas fa-map-marker-alt"></i> Papua Barat</p>
+                                <p><i class="fas fa-star"></i> Rating: 4.8/5</p>
+                                <p><i class="fas fa-money-bill-wave"></i> Harga mulai dari Rp 1.200.000</p>
+                                <a href="destinasi.html#raja-ampat" class="btn btn-sm btn-outline-primary">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                    <div class="card destination-card">
+                        <img src="images/destinations/gunung-bromo.jpg" class="card-img-top" alt="Gunung Bromo">
+                        <div class="card-body">
+                            <h5 class="card-title">Gunung Bromo</h5>
+                            <p class="card-text">Pesona sunrise di atas lautan pasir dan kawah yang megah.</p>
+                            <div class="card-details">
+                                <p><i class="fas fa-map-marker-alt"></i> Jawa Timur</p>
+                                <p><i class="fas fa-star"></i> Rating: 4.7/5</p>
+                                <p><i class="fas fa-money-bill-wave"></i> Harga mulai dari Rp 300.000</p>
+                                <a href="destinasi.html#bromo" class="btn btn-sm btn-outline-primary">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Apa Kata Mereka?</h2>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonial-item text-center">
+                                    <img src="images/user/user-1.jpg" class="rounded-circle mb-3" width="100" alt="User 1">
+                                    <p class="lead">"Pengalaman wisata di Bali sangat memuaskan. Pantainya bersih, budayanya unik, dan masyarakatnya ramah."</p>
+                                    <h5>Sarah Johnson</h5>
+                                    <p class="text-muted">Turis dari Australia</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-item text-center">
+                                    <img src="images/user/user-1.jpg" class="rounded-circle mb-3" width="100" alt="User 2">
+                                    <p class="lead">"Raja Ampat adalah surga bagi penyelam. Saya belum pernah melihat terumbu karang seindah ini di tempat lain."</p>
+                                    <h5>Michael Chen</h5>
+                                    <p class="text-muted">Penyelang dari Singapura</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-item text-center">
+                                    <img src="images/user/user-1.jpg" class="rounded-circle mb-3" width="100" alt="User 3">
+                                    <p class="lead">"Sunrise di Bromo adalah pemandangan paling spektakuler yang pernah saya lihat. Sangat worth it untuk bangun pagi!"</p>
+                                    <h5>David Wilson</h5>
+                                    <p class="text-muted">Fotografer dari Inggris</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Tentang Kami</h5>
+                    <p>Wisata Indonesia adalah platform yang mempromosikan keindahan alam dan budaya Indonesia kepada dunia.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Link Cepat</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Beranda</a></li>
+                        <li><a href="destinasi.html" class="text-white">Destinasi</a></li>
+                        <li><a href="galeri.html" class="text-white">Galeri</a></li>
+                        <li><a href="registrasi.html" class="text-white">Registrasi</a></li>
+                        <li><a href="kontak.html" class="text-white">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Hubungi Kami</h5>
+                    <p><i class="fas fa-envelope me-2"></i> info@wisataindonesia.com</p>
+                    <p><i class="fas fa-phone me-2"></i> +62 123 4567 890</p>
+                    <div class="social-icons">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">&copy; 2023 Wisata Indonesia. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

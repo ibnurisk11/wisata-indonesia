@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Indonesia - Destinasi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader-wrapper">
+        <div class="loader">
+            <div class="loader-inner">
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-mountain"></i> Wisata Indonesia
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="destinasi.html">Destinasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.html">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registrasi.html">Registrasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 fw-bold">Destinasi Wisata</h1>
+                    <p class="lead">Temukan berbagai tempat wisata menarik di seluruh Indonesia</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Destinations Table -->
+    <section class="py-5">
+        <div class="container">
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead class="table-success">
+                        <tr>
+                            <th>No</th>
+                            <th>Nama Destinasi</th>
+                            <th>Lokasi</th>
+                            <th>Jenis Wisata</th>
+                            <th>Rating</th>
+                            <th>Harga Tiket</th>
+                            <th>Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="bali">
+                            <td>1</td>
+                            <td>Pantai Kuta, Bali</td>
+                            <td>Bali</td>
+                            <td>Pantai</td>
+                            <td>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </td>
+                            <td>Rp 20.000</td>
+                            <td><button class="btn btn-sm btn-success">Detail</button></td>
+                        </tr>
+                        <tr id="raja-ampat">
+                            <td>2</td>
+                            <td>Raja Ampat</td>
+                            <td>Papua Barat</td>
+                            <td>Bahari</td>
+                            <td>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star-half-alt text-warning"></i>
+                            </td>
+                            <td>Rp 500.000</td>
+                            <td><button class="btn btn-sm btn-success">Detail</button></td>
+                        </tr>
+                        <tr id="bromo">
+                            <td>3</td>
+                            <td>Gunung Bromo</td>
+                            <td>Jawa Timur</td>
+                            <td>Alam</td>
+                            <td>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="far fa-star text-warning"></i>
+                            </td>
+                            <td>Rp 30.000</td>
+                            <td><button class="btn btn-sm btn-success">Detail</button></td>
+                        </tr>
+                        <tr id="borobudur">
+                            <td>4</td>
+                            <td>Candi Borobudur</td>
+                            <td>Jawa Tengah</td>
+                            <td>Budaya</td>
+                            <td>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </td>
+                            <td>Rp 50.000</td>
+                            <td><button class="btn btn-sm btn-success">Detail</button></td>
+                        </tr>
+                        <tr id="komodo">
+                            <td>5</td>
+                            <td>Taman Nasional Komodo</td>
+                            <td>Nusa Tenggara Timur</td>
+                            <td>Alam</td>
+                            <td>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star-half-alt text-warning"></i>
+                            </td>
+                            <td>Rp 150.000</td>
+                            <td><button class="btn btn-sm btn-success">Detail</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destination Details -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Detail Destinasi</h2>
+            <div class="row g-4">
+                <!-- Destination 1 -->
+                <div class="col-lg-6">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="images/destinations/bali.jpg" class="img-fluid rounded-start h-100" alt="Bali Detail">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h3 class="card-title">Pantai Kuta, Bali</h3>
+                                    <p class="card-text">Pantai Kuta adalah salah satu pantai paling terkenal di Bali dengan pasir putih dan ombak yang cocok untuk berselancar.</p>
+                                    <ul class="list-unstyled">
+                                        <li><strong>Lokasi:</strong> Kabupaten Badung, Bali</li>
+                                        <li><strong>Fasilitas:</strong> Hotel, Restoran, Toko Souvenir</li>
+                                        <li><strong>Aktivitas:</strong> Berenang, Selancar, Sunset View</li>
+                                    </ul>
+                                    <a href="registrasi.html" class="btn btn-primary">Daftar Wisata</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Destination 2 -->
+                <div class="col-lg-6">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="images/destinations/raja-ampat.webp" class="img-fluid rounded-start h-100" alt="Raja Ampat Detail">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h3 class="card-title">Raja Ampat</h3>
+                                    <p class="card-text">Kepulauan Raja Ampat memiliki keanekaragaman hayati laut tertinggi di dunia dengan lebih dari 1.500 spesies ikan.</p>
+                                    <ul class="list-unstyled">
+                                        <li><strong>Lokasi:</strong> Papua Barat</li>
+                                        <li><strong>Fasilitas:</strong> Resort, Dive Center</li>
+                                        <li><strong>Aktivitas:</strong> Diving, Snorkeling, Island Hopping</li>
+                                    </ul>
+                                    <a href="registrasi.html" class="btn btn-primary">Daftar Wisata</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Tentang Kami</h5>
+                    <p>Wisata Indonesia adalah platform yang mempromosikan keindahan alam dan budaya Indonesia kepada dunia.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Link Cepat</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Beranda</a></li>
+                        <li><a href="destinasi.html" class="text-white">Destinasi</a></li>
+                        <li><a href="galeri.html" class="text-white">Galeri</a></li>
+                        <li><a href="registrasi.html" class="text-white">Registrasi</a></li>
+                        <li><a href="kontak.html" class="text-white">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Hubungi Kami</h5>
+                    <p><i class="fas fa-envelope me-2"></i> info@wisataindonesia.com</p>
+                    <p><i class="fas fa-phone me-2"></i> +62 123 4567 890</p>
+                    <div class="social-icons">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">&copy; 2023 Wisata Indonesia. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
